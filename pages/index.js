@@ -3,6 +3,12 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/header.js";
 
 export default function Home() {
+  const homeHeaderProps = {
+    title: "Welcome to Next Book Store!",
+    description: "Get started by searching your favourite book",
+    buttonText: "New Arrival",
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Header />
+        <Header {...homeHeaderProps} />
       </main>
     </div>
   );
