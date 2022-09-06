@@ -1,30 +1,46 @@
+/** By default, this is a mobile breakpoint **/
 .container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 6rem;
+  position: relative;
+  z-index: 2;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  color: var(--text-title);
+
+  font-size: 3rem /* 48px */;
+  line-height: 1;
 }
 
-.title,
-.description {
-  text-align: center;
+.subTitle {
+  margin-top: 0.75rem;
+  font-size: 1.5rem /* 24px */;
+  line-height: 2rem /* 32px */;
+  color: var(--text-subTitle);
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.buttonWrapper {
+  margin-top: 1.25rem;
+}
+
+.button {
+  background-color: beige;
+  cursor: pointer;
+  color: var(--button-primary);
+  outline: 0;
+  border: 0px;
+  border-radius: 5px;
+
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+  padding-left: 2.5rem /* 40px */;
+  padding-right: 2.5rem /* 40px */;
+}
+
+.button:hover {
+  opacity: 75%;
 }

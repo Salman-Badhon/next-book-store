@@ -5,8 +5,8 @@ import Header from "../components/header.js";
 export default function Home() {
   const homeHeaderProps = {
     title: "Welcome to Next Book Store!",
-    description: "Get started by searching your favourite book",
-    buttonText: "New Arrival",
+    subTitle: "Get started by checking our newly arrived books",
+    buttonText: "New Arrivals",
   };
 
   return (

@@ -1,9 +1,7 @@
-import styles from "../styles/Button.module.css";
-
 const Button = (props) => {
   return (
     <>
-      <button className={styles.button} onClick={props.handleOnClick}>
+      <button className={props.buttonStyle} onClick={props.handleOnClick}>
         {props.buttonText}
       </button>
     </>

@@ -20,3 +20,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --text-title: #000000;
+  --text-subTitle: #000033;
+  --button-primary: #000000;
+}

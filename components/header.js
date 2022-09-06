@@ -9,10 +9,11 @@ const Header = (props) => {
     <>
       <div className={styles.container}>
         <h1 className={styles.title}>{props.title}</h1>
-        <p className={styles.description}>{props.description}</p>
+        <p className={styles.subTitle}>{props.subTitle}</p>
         <Button
           buttonText={props.buttonText}
           handleOnClick={handleOnHeaderButtonClick}
+          buttonStyle={styles.button}
         />
       </div>
     </>
